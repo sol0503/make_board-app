@@ -1,0 +1,31 @@
+.bar {
+  display: flex;
+  align-items: center;
+}
+.bar h5 {
+  width: 70%;
+  text-align: center;
+}
+.bar svg {
+  width: 15%;
+}
+.bar button {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.search svg {
+  width: 10%;
+}
+.search input {
+  border: none;
+  width: 80%;
+}

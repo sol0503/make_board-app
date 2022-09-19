@@ -1,8 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import CreateBtn from "./CreateBtn";
+import { HiArrowLeft } from "react-icons/hi";
 
 const New = () => {
+  const navigate = useNavigate();
   return (
     <div>
+      <HiArrowLeft
+        size={30}
+        onClick={() => {
+          navigate("/");
+        }}
+      />
       <h3>제목:</h3>
       <input />
       <hr />

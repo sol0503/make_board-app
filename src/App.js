@@ -3,6 +3,7 @@ import "./App.css";
 import BoardPage from "./BoardPage";
 import DetailPage from "./DetailPage";
 import New from "./New";
+import Search from "./Search";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<BoardPage />} />
         <Route path="/detail/:id" element={<DetailPage />} />
         <Route path="/new" element={<New />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </BrowserRouter>
   );
